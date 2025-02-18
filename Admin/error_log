@@ -1,0 +1,10 @@
+[13-Nov-2024 05:57:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/concretechindia/test.concretechindia.com/Admin/blog.php:9
+Stack trace:
+#0 /home1/concretechindia/test.concretechindia.com/Admin/blog.php(9): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'concretech_db')
+#1 {main}
+  thrown in /home1/concretechindia/test.concretechindia.com/Admin/blog.php on line 9
+[13-Nov-2024 08:14:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's metropolitan area, our logistics network ensures timely deliveries to keep you' at line 1 in /home1/concretechindia/test.concretechindia.com/Admin/add_blog.php:38
+Stack trace:
+#0 /home1/concretechindia/test.concretechindia.com/Admin/add_blog.php(38): mysqli->query('INSERT INTO sub...')
+#1 {main}
+  thrown in /home1/concretechindia/test.concretechindia.com/Admin/add_blog.php on line 38
